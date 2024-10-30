@@ -1,0 +1,59 @@
+/*
+ * Main Mini Cart CSS
+ */
+
+.jigoshop-mini-cart {
+	width: 100%;
+	max-width: 340px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	background: #000;
+	color: #fff;
+	z-index: 9999;
+	border-radius: 0 0 10px 10px;
+	a {
+		color: #fff;
+		&:hover {
+			color: darken(#fff, 10%);
+		}
+	}
+	.cart-content {
+		table {
+			width: 100%;
+			margin: 0;
+			background: none;
+			border: none;
+			thead,tbody,tfoot {
+				background: none;
+			}
+			th,td {
+				background: none;
+				color: #fff;
+				padding: 10px;
+				font-size: 12px;
+				&.product_title {
+					width: 50%;
+				}
+				&.product_qty {
+					width: 20%;
+				}
+				&.product_price {
+					width: 30%;
+				}
+			}
+			tr.even, tr.alt, tr:nth-of-type(even) {
+				background: none;
+			}
+		}
+		.jsmc-cart-button {
+			display: block;
+			padding: 10px;
+			text-align: right;
+			font-size: 12px;
+		}
+	}
+	.cart-info {
+		padding: 10px;
+	}
+}

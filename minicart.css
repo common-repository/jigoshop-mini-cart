@@ -1,0 +1,64 @@
+/*
+ * Main Mini Cart CSS
+ */
+.jigoshop-mini-cart {
+  width: 100%;
+  max-width: 340px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: #000;
+  color: #fff;
+  z-index: 9999;
+  border-radius: 0 0 10px 10px;
+}
+.jigoshop-mini-cart a {
+  color: #fff;
+}
+.jigoshop-mini-cart a:hover {
+  color: #e6e6e6;
+}
+.jigoshop-mini-cart .cart-content table {
+  width: 100%;
+  margin: 0;
+  background: none;
+  border: none;
+}
+.jigoshop-mini-cart .cart-content table thead,
+.jigoshop-mini-cart .cart-content table tbody,
+.jigoshop-mini-cart .cart-content table tfoot {
+  background: none;
+}
+.jigoshop-mini-cart .cart-content table th,
+.jigoshop-mini-cart .cart-content table td {
+  background: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+}
+.jigoshop-mini-cart .cart-content table th.product_title,
+.jigoshop-mini-cart .cart-content table td.product_title {
+  width: 50%;
+}
+.jigoshop-mini-cart .cart-content table th.product_qty,
+.jigoshop-mini-cart .cart-content table td.product_qty {
+  width: 20%;
+}
+.jigoshop-mini-cart .cart-content table th.product_price,
+.jigoshop-mini-cart .cart-content table td.product_price {
+  width: 30%;
+}
+.jigoshop-mini-cart .cart-content table tr.even,
+.jigoshop-mini-cart .cart-content table tr.alt,
+.jigoshop-mini-cart .cart-content table tr:nth-of-type(even) {
+  background: none;
+}
+.jigoshop-mini-cart .cart-content .jsmc-cart-button {
+  display: block;
+  padding: 10px;
+  text-align: right;
+  font-size: 12px;
+}
+.jigoshop-mini-cart .cart-info {
+  padding: 10px;
+}
